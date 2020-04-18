@@ -1,0 +1,126 @@
+/* INIZIO RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO REGOLE GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 0 10%;
+  height: 100%;
+  position: relative;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FINE REGOLE GENERALI */
+
+/* INIZIO REGOLE HEADER */
+/* Inizio regole generali header */
+header {
+  background: #0d325a;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 113% 100%;
+  height: 600px;
+}
+/* Fine regole generali header */
+
+/* Inizio regole navbar */
+header nav .logo {
+  width: 15%;
+  height: 38px;
+}
+
+header nav {
+  padding-top: 20px;
+}
+
+header nav .col {
+  float: left;
+  line-height: 38px;
+}
+header nav .menu {
+  margin-top: 5px;
+}
+
+header nav .menu li {
+  display: inline-block;
+  list-style: none;
+}
+
+header nav .right-menu {
+  width: 40%;
+  text-align: right;
+}
+
+header nav .left-menu {
+  width: 45%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+}
+
+header nav ul li a:hover {
+  color: orange;
+}
+
+header nav ul li a.login {
+  padding: 7px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+header nav ul li a.menu-item-green {
+  padding: 7px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #7DBA00;
+}
+/* Fine regole navbar */
+
+/* Inizio regole teaser */
+header .teaser {
+  width: 600px;
+  position: absolute;
+  top: 35%;
+}
+
+header .teaser h1 {
+  font-size: 50px;
+  color: white;
+}
+
+header .teaser a.cta {
+  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #7DBA00;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Fine regole teaser */
+/* FINE REGOLE HEADER */
